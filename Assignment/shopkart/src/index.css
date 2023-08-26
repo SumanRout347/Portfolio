@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  html{
+    font-family: 'Syne', sans-serif;
+  }
+  html, body {width: auto!important; overflow-x: hidden!important}
+}
+::-webkit-scrollbar {
+  display: none;
+}
+#slider{
+  -webkit-overflow-scrolling: touch
+}
+#container{
+  width: 25em;
+  overflow-x: scroll;
+  white-space: nowrap;
+  overflow-y: hidden;
+}
